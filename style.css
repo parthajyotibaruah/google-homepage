@@ -1,6 +1,6 @@
-/* not working */
+
 .logo {
-    
+    /* not working */
     margin-left: auto;
     margin-right: auto;
     padding-top: 100px;
@@ -26,7 +26,7 @@
 .botnav {
     list-style-type: none;
     position: fixed;
-    bottom: 0;
+    bottom: 10px;
     width: 100%;
     margin: 0;
     padding: 0; 
@@ -35,11 +35,13 @@
 .botnav .botnav-left {
     float: left;
     padding-left: 0%;
+    margin-left: -50px;
 }
 
 .botnav .botnav-right {
     float: right;
     padding-right: 1%;
+    margin-right: -5px;
 }
 
 li {
@@ -54,8 +56,9 @@ a {
     
 }
 
-/* not working */
+
 .search {
+    /* not working */
     width: 100%;
     border-radius: 5px 0 0 5px;
 }

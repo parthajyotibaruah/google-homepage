@@ -75,9 +75,11 @@ a:active {
 
 
 .search {
-    /* not working */
-    width: 100%;
-    border-radius: 5px 0 0 5px;
+    width: 450px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #f1f1f1;
+    height: 40px;
 }
 
 
